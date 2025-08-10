@@ -1,0 +1,38 @@
+/* Dégradé Instagram */
+.btn-gradient {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  color: white;
+  border: none;
+}
+.btn-gradient:hover {
+  opacity: 0.9;
+}
+
+/* Boutons arrondis */
+.btn {
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+/* Image profil avec effet */
+img.rounded-circle {
+  border: 4px solid white;
+  transition: transform 0.3s ease;
+}
+img.rounded-circle:hover {
+  transform: scale(1.05);
+}
+
+/* Image de fond */
+body {
+  background: url("IMG-20231113-WA0063.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Couche transparente pour lisibilité du contenu */
+.overlay {
+  background-color: rgba(255, 255, 255, 0.85); /* blanc semi-transparent */
+  border-radius: 20px;
+  padding: 30px;
+  display: inline-block;
+}
