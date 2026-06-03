@@ -31,7 +31,7 @@ body {
 
 /* Couche transparente pour lisibilité du contenu */
 .overlay {
-  background-color: rgba(255, 255, 255, 0.85); /* blanc semi-transparent */
+  background-color: rgba(250, 248, 248, 0.85); /* blanc semi-transparent */
   border-radius: 20px;
   padding: 30px;
   display: inline-block;
